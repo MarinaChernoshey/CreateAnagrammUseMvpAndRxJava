@@ -1,0 +1,71 @@
+{
+  "title": "Spoon Execution",
+  "started": 1536772825119,
+  "duration": 7,
+  "results": {
+    "JF8PSCDILB994PKZ": {
+      "installFailed": true,
+      "installMessage": "Unable to install application APK.",
+      "deviceDetails": {
+        "model": "K50a40",
+        "manufacturer": "LENOVO",
+        "version": "6.0",
+        "apiLevel": 23,
+        "isEmulator": false
+      },
+      "testResults": {},
+      "started": 1536772825119,
+      "duration": -1,
+      "exceptions": [
+        {
+          "className": "com.android.ddmlib.InstallException",
+          "message": "INSTALL_FAILED_TEST_ONLY",
+          "elements": [
+            {
+              "className": "com.android.ddmlib.Device",
+              "fileName": "Device.java",
+              "line": 976,
+              "methodName": "installRemotePackage",
+              "isNative": false
+            },
+            {
+              "className": "com.android.ddmlib.Device",
+              "fileName": "Device.java",
+              "line": 883,
+              "methodName": "installPackage",
+              "isNative": false
+            },
+            {
+              "className": "com.squareup.spoon.SpoonDeviceRunner",
+              "fileName": "SpoonDeviceRunner.java",
+              "line": 197,
+              "methodName": "run",
+              "isNative": false
+            },
+            {
+              "className": "com.squareup.spoon.SpoonRunner",
+              "fileName": "SpoonRunner.java",
+              "line": 183,
+              "methodName": "runTests",
+              "isNative": false
+            },
+            {
+              "className": "com.squareup.spoon.SpoonRunner",
+              "fileName": "SpoonRunner.java",
+              "line": 132,
+              "methodName": "run",
+              "isNative": false
+            },
+            {
+              "className": "com.squareup.spoon.SpoonRunner",
+              "fileName": "SpoonRunner.java",
+              "line": 695,
+              "methodName": "main",
+              "isNative": false
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
